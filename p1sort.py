@@ -1,4 +1,4 @@
-analyze = {}
+﻿analyze = {}
 for word in speech:
     analyze[word] = analyze.get(word, 0) + 1  # dictionary type에서 get 이 
                                               #무슨 기능인지                 
@@ -14,3 +14,6 @@ for k, v in flist:
     print(k, v)
     if cnt > 100: break
     cnt += 1
+
+babo
+bnao
